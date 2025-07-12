@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon | BAIT AL SHIBAAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Orbitron", sans-serif;
+        color: #fff;
+        background: url("https://images.unsplash.com/photo-1581091870622-2de8a06fa1d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80")
+          no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .container {
+        background-color: rgba(0, 0, 0, 0.65);
+        padding: 40px;
+        border-radius: 12px;
+        width: 90%;
+        max-width: 600px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #ffd700;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input,
+      textarea {
+        padding: 12px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+      }
+
+      button {
+        background-color: #ffd700;
+        color: #000;
+        font-weight: bold;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #e6c200;
+      }
+
+      .contact-info {
+        margin-top: 20px;
+        font-size: 0.9rem;
+      }
+
+      .contact-info a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BAIT AL SHIBAAM</h1>
+      <p>CNC & LATHE CUTTING TOOLS SOLUTIONS</p>
+      <p>We're launching soon at <strong>baitalshibaam.com</strong></p>
+
+      <form
+        action="mailto:baitalshibaam@gmail.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Contact Us</button>
+      </form>
+
+      <div class="contact-info">
+        <p>
+          Email:
+          <a href="mailto:baitalshibaam@gmail.com">baitalshibaam@gmail.com</a>
+        </p>
+        <p>Phone: <a href="tel:+971552549748">+971 552549748</a></p>
+      </div>
+    </div>
+  </body>
+</html>
