@@ -1,0 +1,67 @@
+#preloader {
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+#preloader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Hero Slider */
+.slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  transform: scale(1.02);
+  z-index: 0;
+}
+.slide.active-slide {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 10;
+}
+/* Review Slider */
+.review-slide {
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+.review-slide.hidden {
+  display: none;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background-color: #d1d5db;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.dot.active {
+  background-color: #facc15;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-logos {
+  display: flex;
+  width: max-content;
+  animation: scroll-logos 20s linear infinite;
+}
