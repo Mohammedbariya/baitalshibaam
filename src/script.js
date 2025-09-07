@@ -101,7 +101,7 @@ const products = {
     "images/products/holders_tools/CLAMPING_KIT_SET.jpg",
     "images/products/holders_tools/CLAPMPING_KIT_CHART.webp",
     "images/products/holders_tools/CNC_HOLDER.webp",
-    "images/products/holders_tools/CNC_TROLLY_CHAT.jpg",
+    "images/products/holders_tools/CNC_TROLLY_CART.jpg",
     "images/products/holders_tools/face_groving_holder.png",
     "images/products/holders_tools/groving_holder_for_parting.jpg",
     "images/products/holders_tools/HOLDER_FOR_CNC.avif",
